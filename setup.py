@@ -11,7 +11,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name="ct_loss",
-    version="0.0.1",
+    version="0.0.2",
     author="Shaojie Jiang",
     author_email="shaojiejiang.1991@gmail.com",
     description="The contrastive token loss for reducing generative repetition of augoregressive neural language models.",
