@@ -1,0 +1,7 @@
+include requirements.txt
+include *.md
+include *.py
+
+# Exclude build configs
+prune .circleci
+prune .github

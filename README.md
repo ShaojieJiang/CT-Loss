@@ -22,7 +22,7 @@ ce_criterion = CrossEntropyLoss()
 ce_loss = ce_criterion(logits.view(-1, 1000), labels.view(-1))
 
 # This is how you can use our contrastive token loss:
-from ct_loss import ContrastiveTokenLoss
+from ct.ct_loss import ContrastiveTokenLoss
 ct_criterion = ContrastiveTokenLoss(pad_id=999) # we need pad tokens for masking out tokens in a sequence that should not be used as negative tokens
 ct_loss = ct_criterion(logits, labels)
 
