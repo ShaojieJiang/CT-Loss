@@ -1,0 +1,37 @@
+{{! Based on Google Docstring Template }}
+{{! Author Shaojie Jiang <shaojiejiang.1991@gmail.com>}}
+{{! Inspired by Graham Harrison https://towardsdatascience.com/3-easy-steps-to-folding-docstrings-in-vscode-fbb64573611b}}
+{{summaryPlaceholder}}
+
+{{extendedSummaryPlaceholder}}
+
+{{#parametersExist}}
+    Args:
+    {{#args}}
+        {{var}} ({{typePlaceholder}}): {{descriptionPlaceholder}}
+    {{/args}}
+    {{#kwargs}}
+        {{var}} ({{typePlaceholder}}, optional): {{descriptionPlaceholder}}. Defaults to {{&default}}.
+    {{/kwargs}}
+{{/parametersExist}}
+
+{{#exceptionsExist}}
+    Raises:
+    {{#exceptions}}
+        {{type}}: {{descriptionPlaceholder}}
+    {{/exceptions}}
+{{/exceptionsExist}}
+
+{{#returnsExist}}
+    Returns:
+    {{#returns}}
+        {{typePlaceholder}}: {{descriptionPlaceholder}}
+    {{/returns}}
+{{/returnsExist}}
+
+{{#yieldsExist}}
+    Yields:
+    {{#yields}}
+        {{typePlaceholder}}: {{descriptionPlaceholder}}
+    {{/yields}}
+{{/yieldsExist}}
