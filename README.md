@@ -3,6 +3,10 @@
 This repo is the clean (PyTorch) implementation of the contrastive token loss proposed in our paper: _A Simple Contrastive Learning Objective for Alleviating Neural Text Degeneration._
 For reproducing our results, please check [this repo](https://github.com/ShaojieJiang/lit-seq).
 
+## Install
+
+`pip install ct-loss`
+
 ## Usage
 You can use our CT objective when **pretraining** or **finetuning** your augoregressive language models.
 With CT, the resulting language models will have significantly less **repetitive** generations, even with deterministic decoding such as greedy and beam search.
