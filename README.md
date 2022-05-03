@@ -1,9 +1,9 @@
 # Contrastive Token loss function for PyTorch
 
-This repo is the clean (PyTorch) implementation of the contrastive token loss proposed in our paper: _A Simple Contrastive Learning Objective for Alleviating Neural Text Degeneration._
-For reproducing our results, please check [this repo](https://github.com/ShaojieJiang/lit-seq).
+This repo is the clean (PyTorch) implementation of the **contrastive token loss** proposed in our paper: _A Simple Contrastive Learning Objective for Alleviating Neural Text Degeneration._
+The source code for reproducing our results reported in the paper, including data pre-processing scripts, our trained models and interactive Google Colab notebooks, can be found in [this repo](https://github.com/ShaojieJiang/lit-seq).
 
-## Install
+## Installation
 
 `pip install ct-loss`
 
