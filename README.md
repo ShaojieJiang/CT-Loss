@@ -42,8 +42,11 @@ print(ce_loss, ct_loss)
 
 ```
 @article{jiang2022contrastive,
-	author = {Shaojie Jiang and Ruqing Zhang and Svitlana Vakulenko and Maarten de Rijke},
-	title = {A Simple Contrastive Learning Objective for Alleviating Neural Text Degeneration},
-	year = {2022}
+  doi = {10.48550/ARXIV.2205.02517},
+  url = {https://arxiv.org/abs/2205.02517},
+  author = {Jiang, Shaojie and Zhang, Ruqing and Vakulenko, Svitlana and de Rijke, Maarten},
+  title = {A Simple Contrastive Learning Objective for Alleviating Neural Text Degeneration},
+  publisher = {arXiv},
+  year = {2022},
 }
 ```
